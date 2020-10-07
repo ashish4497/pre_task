@@ -1,0 +1,90 @@
+.user_profile {
+  background-color: white;
+  border-right: 1px solid gray;
+}
+
+.user_container {
+  max-width: 70rem;
+  margin: 0 auto;
+  padding: 0 2rem;
+  font-size: 1.1rem;
+  .fa {
+    margin-right: 2rem;
+  }
+}
+.user_info {
+  img {
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
+    margin: 2rem 0;
+  }
+  h3 {
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: #124d4f;
+  }
+  h4 {
+    line-height: 1.9;
+  }
+}
+.location_info {
+  text-align: left;
+  margin-left: 2rem;
+  p {
+    display: inline-block;
+    margin: 0.4rem 0;
+  }
+  span {
+    display: inline-block;
+  }
+  .fa-star {
+    color: gold;
+  }
+}
+.user-style-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+//COMPANY PROFILE SECTION
+.company_profile {
+  a {
+    color: black;
+    display: block;
+    padding: 1rem 3.8rem;
+    border: 1px solid gray;
+    border-bottom: none;
+    border-right: none;
+  }
+  .history {
+    border-bottom: 1px solid gray;
+  }
+}
+
+.btn {
+  text-transform: capitalize;
+  background-color: rgb(218, 213, 213);
+  border: 1px solid black;
+  color: #124d4f;
+  height: 4rem;
+  width: 100%;
+  font-size: 1.4rem;
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+}
+
+.buy_link {
+  background-color: rgb(250, 250, 111);
+  padding: 1.5rem;
+  margin-bottom: 12rem;
+  p {
+    font-size: 1.2rem;
+  }
+  .more_link {
+    color: blue;
+    border-bottom: 1px solid blueviolet;
+  }
+}

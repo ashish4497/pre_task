@@ -1,0 +1,148 @@
+.top_header {
+  background-color: #ffffff;
+}
+
+.ham {
+  display: none;
+}
+
+.toggle {
+  display: none;
+}
+
+.logo img {
+  width: 12rem;
+}
+
+.navigation_section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navigation_section .nav_bar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navigation_section .nav_bar li {
+  margin: 0 1.5rem;
+  font-size: 1rem;
+  text-transform: capitalize;
+}
+
+.navigation_section .nav_bar a {
+  color: black;
+}
+
+.user_section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.user_section img {
+  height: 2rem;
+  width: 2rem;
+  vertical-align: bottom;
+}
+
+.user_section button {
+  text-transform: capitalize;
+  background-color: #124d4f;
+  border: none;
+  color: white;
+  padding: 8px 18px;
+  font-size: 1rem;
+  margin: 0 6px;
+  border-radius: 0.6rem;
+  cursor: pointer;
+  outline: none;
+}
+
+.user_section span {
+  color: #7b7bd3;
+}
+
+.user_section .dropbtn {
+  background-color: transparent;
+  border: 1.5px solid #124d4f;
+  color: #124d4f;
+  text-transform: Capitalize;
+}
+
+.user_section .fa {
+  margin-left: 0.5rem;
+}
+
+.openbtn {
+  display: none;
+}
+
+@media all and (max-width: 768px) {
+  .top_header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 53.85rem;
+    margin: 0 auto;
+  }
+}
+
+/* hambarager-menu-code  */
+@media all and (max-width: 768px) {
+  .nav_bar {
+    display: none;
+    position: absolute;
+    background-color: rgba(25, 36, 46, 0.9);
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    padding-top: 120px;
+  }
+  .nab_links ul li {
+    margin: 32px 0;
+  }
+  .nab_links ul li a {
+    color: #ffffff;
+  }
+  .logo {
+    z-index: 999;
+  }
+  .openbtn {
+    font-size: 32px;
+    color: #4b9b7c;
+    display: inline-block;
+    z-index: 999;
+  }
+  .toggle:checked ~ .nab_links {
+    display: inline-block;
+  }
+  .flex-1 {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .hide {
+    display: none;
+  }
+}
+/*# sourceMappingURL=Header.css.map */

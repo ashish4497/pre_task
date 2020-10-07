@@ -1,0 +1,124 @@
+.top_header {
+  background-color: #ffffff;
+}
+
+.ham {
+  display: none;
+}
+
+.toggle {
+  display: none;
+}
+.logo img {
+  width: 12rem;
+}
+.navigation_section {
+  display: flex;
+  align-items: center;
+  .nav_bar {
+    ul {
+      display: flex;
+      align-items: center;
+    }
+    li {
+      margin: 0 1.5rem;
+      font-size: 1rem;
+      text-transform: capitalize;
+    }
+    a {
+      color: black;
+    }
+  }
+}
+
+.user_section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+}
+.user_section {
+  img {
+    height: 2rem;
+    width: 2rem;
+    vertical-align: bottom;
+  }
+  button {
+    text-transform: capitalize;
+    background-color: #124d4f;
+    border: none;
+    color: white;
+    padding: 8px 18px;
+    font-size: 1rem;
+    margin: 0 6px;
+    border-radius: 0.6rem;
+    cursor: pointer;
+    outline: none;
+  }
+  span {
+    color: rgb(123, 123, 211);
+  }
+  .dropbtn {
+    background-color: transparent;
+    border: 1.5px solid #124d4f;
+    color: #124d4f;
+    text-transform: Capitalize;
+  }
+  .fa {
+    margin-left: 0.5rem;
+  }
+}
+.openbtn {
+  display: none;
+}
+@media all and (max-width: 768px) {
+  .top_header {
+    display: flex;
+    width: 53.85rem;
+    margin: 0 auto;
+  }
+}
+/* hambarager-menu-code  */
+@media all and (max-width: 768px) {
+  .nav_bar {
+    display: none;
+    position: absolute;
+    background-color: rgba(25, 36, 46, 0.9);
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    padding-top: 120px;
+  }
+
+  .nab_links ul li {
+    margin: 32px 0;
+  }
+
+  .nab_links ul li a {
+    color: #ffffff;
+  }
+
+  .logo {
+    z-index: 999;
+  }
+
+  .openbtn {
+    font-size: 32px;
+    color: #4b9b7c;
+    display: inline-block;
+    z-index: 999;
+  }
+
+  .toggle:checked ~ .nab_links {
+    display: inline-block;
+  }
+
+  .flex-1 {
+    flex-direction: row;
+  }
+  .hide {
+    display: none;
+  }
+}

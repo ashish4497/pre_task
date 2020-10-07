@@ -1,0 +1,22 @@
+.bread_crumb {
+  padding: 1.8rem 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: start;
+      align-self: start;
+}
+
+.bread_crumb p {
+  margin-right: 0.6rem;
+}
+
+.bread_crumb .active a {
+  color: #0a3a3b;
+  font-weight: 600;
+}
+
+.bread_crumb a {
+  color: #124d4f;
+}
+/*# sourceMappingURL=Breadcrumb.css.map */

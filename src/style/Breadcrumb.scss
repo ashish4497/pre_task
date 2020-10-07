@@ -1,0 +1,15 @@
+.bread_crumb {
+  padding: 1.8rem 5rem;
+  display: flex;
+  align-self: start;
+  p {
+    margin-right: 0.6rem;
+  }
+  .active a {
+    color: #0a3a3b;
+    font-weight: 600;
+  }
+  a {
+    color: #124d4f;
+  }
+}

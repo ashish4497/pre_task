@@ -1,0 +1,48 @@
+.col-2-herro-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1.8rem 5rem;
+}
+
+.main_links {
+  border-bottom: 1.6px solid gray;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main_links a {
+  line-height: 1.9;
+  margin-right: 3.8rem;
+  font-size: 1.2rem;
+  color: gray;
+}
+
+a {
+  line-height: 1.9;
+}
+
+.active-link {
+  border-bottom: 2px solid gray;
+}
+
+.about_company h3 {
+  margin-top: 1.4rem;
+}
+
+.rating_reviews h3 {
+  margin-top: 1.4rem;
+}
+
+.hero-icon {
+  text-align: center;
+}
+
+.hero-icon .fas {
+  font-size: 8rem;
+  color: lightgrey;
+  padding: 8rem;
+  text-align: left;
+}
+/*# sourceMappingURL=Heroheader.css.map */

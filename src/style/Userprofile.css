@@ -1,0 +1,103 @@
+.user_profile {
+  background-color: white;
+  border-right: 1px solid gray;
+}
+
+.user_container {
+  max-width: 70rem;
+  margin: 0 auto;
+  padding: 0 2rem;
+  font-size: 1.1rem;
+}
+
+.user_container .fa {
+  margin-right: 2rem;
+}
+
+.user_info img {
+  height: 8rem;
+  width: 8rem;
+  border-radius: 50%;
+  margin: 2rem 0;
+}
+
+.user_info h3 {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  font-weight: 600;
+  color: #124d4f;
+}
+
+.user_info h4 {
+  line-height: 1.9;
+}
+
+.location_info {
+  text-align: left;
+  margin-left: 2rem;
+}
+
+.location_info p {
+  display: inline-block;
+  margin: 0.4rem 0;
+}
+
+.location_info span {
+  display: inline-block;
+}
+
+.location_info .fa-star {
+  color: gold;
+}
+
+.user-style-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.company_profile a {
+  color: black;
+  display: block;
+  padding: 1rem 3.8rem;
+  border: 1px solid gray;
+  border-bottom: none;
+  border-right: none;
+}
+
+.company_profile .history {
+  border-bottom: 1px solid gray;
+}
+
+.btn {
+  text-transform: capitalize;
+  background-color: #dad5d5;
+  border: 1px solid black;
+  color: #124d4f;
+  height: 4rem;
+  width: 100%;
+  font-size: 1.4rem;
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+}
+
+.buy_link {
+  background-color: #fafa6f;
+  padding: 1.5rem;
+  margin-bottom: 12rem;
+}
+
+.buy_link p {
+  font-size: 1.2rem;
+}
+
+.buy_link .more_link {
+  color: blue;
+  border-bottom: 1px solid blueviolet;
+}
+/*# sourceMappingURL=Userprofile.css.map */
